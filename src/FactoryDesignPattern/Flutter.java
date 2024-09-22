@@ -7,12 +7,12 @@ public class Flutter {
 
     private SupportPlatform supportPlatform;
 
-    public SupportPlatform getSupportPlatform() {
-        return supportPlatform;
-    }
-
     public void setSupportPlatform(SupportPlatform supportPlatform) {
         this.supportPlatform = supportPlatform;
+    }
+
+    public SupportPlatform getSupportPlatform() {
+        return supportPlatform;
     }
 
     public void changeRefreshRate(){
